@@ -1,59 +1,69 @@
 /* Custom variables */
 :root {
-    /* Colors */
-    --primary-color: #ff0000;
-    --light-primary-color: #fc5b5b;
-    --dark-primary-color: #970202;
-    --secondary-color: blue;
-    --light-secondary-color: #6c6cfe;
-    --dark-secondary-color: #0000a1;
+  /* Colors */
+  --primary-color: ;
+  --secondary-color: ;
+  --light-color: ;
+  --dark-color: ;
+  --white-color: #ffffff;
+  --black-color: #000000;
 
-    --white-type-zero: #ffffff;
-    --white-type-one: #f0f0f0;
-    --white-type-two: #ececec;
+  /* fonts */
+  --main-font: ;
+  --secondary-font: ;
 
-    --black-type-zero: #000000;
-    --black-type-one: #202020;
-    --black-type-two: #292828;
+  /* transitions */
+  --trans-3s: all 0.3s ease;
+  --trans-5s: all 0.5s ease;
+  --trans-7s: all 0.7s ease;
 
-    --gray-dark: #3a3b3c;
-    --gray: #808080;
-    --gray-light: #D3D3D3;
+  /* Margins */
+  --margin-1: 0.25rem; /* 4px */
+  --margin-2: 0.5rem; /* 8px */
+  --margin-3: 1rem; /* 16px */
+  --margin-4: 1.5rem; /* 24px */
+  --margin-5: 3rem; /* 48px */
 
-    --border: #272727;
-    --light-Border: #6b6b6b;
-
-    --text-light: #b1b7c0;
-    --text-dark: #282a2d;
-    --TextDisabled: #606874;
-
-    /* fonts */
-    /* --main-font: ; */
-
-
-
+  /* Padding */
+  --padding-1: 0.25rem; /* 4px */
+  --padding-2: 0.5rem; /* 8px */
+  --padding-3: 1rem; /* 16px */
+  --padding-4: 1.5rem; /* 24px */
+  --padding-5: 3rem; /* 48px */
 }
 
 /* Resets */
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: var(--main-font); */
 }
 
 body {
-    background-color: var(--white-type-zero);
-    color: var(--black-type-zero);
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 
+/* Media queries - From Desktop to Mobile */
+/* Largest devices (1400px and down) */
+@media only screen and (max-width: 87.5rem) {
+}
 
-/* Navbar start */
+/* Extra Large devices (1200px and down) */
+@media only screen and (max-width: 75rem) {
+}
 
+/* Large devices (992px and down) */
+@media only screen and (max-width: 62rem) {
+}
 
-/* Navbar end */
-/* Main start */
+/* Medium devices (768px and down) */
+@media only screen and (max-width: 48rem) {
+}
 
-
-/* Main end */
+/* Small devices (576px and down) */
+@media only screen and (max-width: 36rem) {
+}

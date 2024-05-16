@@ -1,5 +1,5 @@
 # Base boilerplate settings file (Html, Css and Js)
 
-## I'm lazy, and I know
+## A simple setup for an easy-to-start
 
-And probably this is not the best and most efficient way of doing this stuff, but you know what, nobody said that it has to be **perfect**. 
+This setup may not be the most efficient, but I hope it can get better overtime. Meanwhile, let's focus on getting the task done. :)
