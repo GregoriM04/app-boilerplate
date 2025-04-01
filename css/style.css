@@ -6,14 +6,27 @@
   /* Colors */
   --primary-color: ;
   --secondary-color: ;
-  --light-color: ;
-  --dark-color: ;
+  --yellow-color: #fbbf24;
+  --red-color: #dc2626;
+  --green-color: #22c55e;
+  --blue-color: #2563eb;
   --white-color: #ffffff;
+  --light-gray-100: #fafafa;
+  --light-gray-200: #f5f5f5;
+  --light-gray-300: #e5e5e5;
+  --light-gray-400: #d4d4d4;
+  --light-gray-500: #a3a3a3;
+  --light-gray-600: #8a8a8a;
   --black-color: #000000;
+  --dark-gray-100: #0a0a0a;
+  --dark-gray-200: #171717;
+  --dark-gray-300: #262626;
+  --dark-gray-400: #404040;
+  --dark-gray-500: #525252;
+  --dark-gray-600: #737373;
 
   /* fonts */
   --primary-font: "Poppins", sans-serif;
-  --secondary-font: ;
 
   /* transitions */
   --trans-3s: all 0.3s ease;
@@ -32,10 +45,10 @@
   --shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
 
   /* typography size */
-  --ty-size-h1: 2.125rem; /* 34px */
-  --ty-size-h2: 1.6rem; /* 25.6px */
-  --ty-size-h3: 1.25rem; /* 20px */
-  --ty-size-p: 1rem; /* 16px */
+  --tg-size-h1: 2.125rem; /* 34px */
+  --tg-size-h2: 1.6rem; /* 25.6px */
+  --tg-size-h3: 1.25rem; /* 20px */
+  --tg-size-p: 1rem; /* 16px */
 }
 
 /* Resets */
@@ -75,7 +88,6 @@ p,
 a,
 button {
   font-size: var(--ty-size-p);
-  font-weight: 500;
 }
 
 /* Media queries - From Desktop to Mobile */
